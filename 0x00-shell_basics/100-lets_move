@@ -1,0 +1,6 @@
+#!/bin/bash
+shopt extglob
+for filename in $(ls -d *[[:upper:]]*)
+do
+	mv "$filename" /tmp/u
+done

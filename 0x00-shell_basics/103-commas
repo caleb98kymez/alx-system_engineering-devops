@@ -1,0 +1,5 @@
+#!/bin/bash
+for filename in $(ls -a)
+do
+	echo "$filename,"
+done

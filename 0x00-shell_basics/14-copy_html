@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ ! -f "../*.html" ]; then
+	cp -u *.html ..
+fi
